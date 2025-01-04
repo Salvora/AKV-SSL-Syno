@@ -1,7 +1,7 @@
 #!/bin/bash -eu
 # Synology DSM SSL Certificate Renewal from Azure Key Vault
 
-# Version: 2.3.0
+# Version: 2.3.1
 # Release Date: 2023-10-01
 # Author: Salvora
 # Description: This script automates the renewal and replacement of SSL certificates on Synology NAS using Azure Key Vault.
