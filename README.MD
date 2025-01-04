@@ -8,7 +8,7 @@ Tested with DSM 7.2
 
 ## Version
 
-**Current Version:** 2.0.0  
+**Current Version:** 2.3.0  
 **Release Date:** 2023-10-01
 
 ## Table of Contents
@@ -82,6 +82,10 @@ The `AKV-SSL-Syno` script automates the process of renewing SSL certificates sto
 
 Run the script with the following command:
 
+--api and --file arguments are optional deploy methods. By default the script uses --api argument to try and deploy the certs making API calls to synoapi. However, I could not get it to work properly.
+Recommended to use --file
+--file replaces the cert files with rsync.
+
 ```bash
-./Syno-Azure-SSL-Renew.sh <Azure_Key_Vault_Name> <Azure_Certificate_Name>
+./Syno-Azure-SSL-Renew.sh [--api|--file] <Azure_Key_Vault_Name> <Azure_Certificate_Name>
 ```
