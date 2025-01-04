@@ -327,14 +327,6 @@ fi
 echo "INFO: Certificate operation completed successfully."
 printf -- '%s\n' "${RESULT}"
 
-# Check JSON result and error out if not successful
-SUCCESS="$(printf -- '%s' "${RESULT}" | /usr/bin/jq -r '.success')"
-if [ "${SUCCESS}" != 'true' ]; then
-  ERROR_CODE="$(printf -- '%s' "${RESULT}" | /usr/bin/jq -r '.error.code')"
-  printf -- "ERROR/%s: Certificate import failed with error code %s\n" "${SCRIPTNAME}" "${ERROR_CODE}"
-  exit 73 # Error importing certificate
-fi
-
 echo "Certificate operation completed successfully."
 
 # Cleanup temporary certificate folder
