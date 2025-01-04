@@ -8,7 +8,7 @@ Tested with DSM 7.2
 
 ## Version
 
-**Current Version:** 1.0.0  
+**Current Version:** 2.0.0  
 **Release Date:** 2023-10-01
 
 ## Table of Contents
