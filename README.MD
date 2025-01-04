@@ -4,6 +4,7 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-blue.svg)
 
 Automate the renewal and replacement of SSL certificates on Synology NAS using Azure Key Vault.
+Tested with DSM 7.2
 
 ## Version
 
