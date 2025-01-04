@@ -17,10 +17,6 @@ Automate the renewal and replacement of SSL certificates on Synology NAS using A
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Script Details](#script-details)
-- [Configuration](#configuration)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
